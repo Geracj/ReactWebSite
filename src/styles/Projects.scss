@@ -1,0 +1,21 @@
+$main-color: #434e74;
+$second-color: #889bd3;
+$third-color: #bedfff;
+
+
+#projects {
+  text-align: center;
+  color: $main-color;
+
+  >h1 {
+    margin-top: 75px;
+    background-color: white;
+  }
+
+  #proj-container {
+    width: 90%;
+    margin: 50px auto;
+    border: 1px solid $main-color;
+    box-shadow: 0 0 10px black;
+  }
+}

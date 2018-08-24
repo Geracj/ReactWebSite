@@ -1,0 +1,43 @@
+$main-color: #434e74;
+$second-color: #889bd3;
+$third-color: #bedfff;
+
+#header {
+  width: 100%;
+  background-color: $main-color;
+  color: white;
+  box-shadow: 0 0 10px black;
+
+  h1 {
+    padding-left: 5%;
+    cursor: pointer;
+  }
+
+  #links {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  a {
+    color: black;
+    text-transform: uppercase;
+    padding: 15px;
+    margin-right: 3%;
+    margin-top: -60px;
+    color: white;
+  }
+
+  #hd-btn {
+    display: none;
+  }
+
+  a:hover {
+    background-color: $second-color;
+    color: $third-color;
+  }
+}
+
+@media screen and ( max-width: 1000px ) {
+    
+}

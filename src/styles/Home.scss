@@ -1,0 +1,38 @@
+$main-color: #434e74;
+$second-color: #889bd3;
+$third-color: #bedfff;
+
+
+#home {
+  text-align: center;
+
+  #text {
+    margin-top: 30vh;
+    color: $main-color;
+    font-size: 44px;
+    background-color: white;
+  }
+
+  #home-btn {
+    border: none;
+    font-size: 44px;
+    background-color: $main-color;
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 25px;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 0 10px black;
+  }
+
+  #home-btn:hover {
+    background-color: #889bd3;
+    color: $main-color;
+  }
+
+  #lorem {
+    color: black;
+    width: 50%;
+    margin: 20px auto;
+  }
+}

@@ -1,0 +1,21 @@
+$main-color: #434e74;
+$second-color: #889bd3;
+$third-color: #bedfff;
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: 0.6s ease;
+}
+
+body {
+  font-size: 26px;
+  background-color: $third-color;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}

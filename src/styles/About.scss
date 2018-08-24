@@ -1,0 +1,82 @@
+$main-color: #434e74;
+$second-color: #889bd3;
+$third-color: #bedfff;
+
+
+#about {
+  text-align: center;
+  color: $main-color;
+
+  h1 {
+    margin-top: 75px;
+    background-color: white;
+  }
+
+  #about-container {
+    width: 70%;
+    margin: 50px auto;
+    border: 1px solid $main-color;
+  }
+
+    h2 {
+      width: 100%;
+      background-color: $main-color;
+      color: $second-color;
+      text-transform: uppercase;
+    }
+
+    #about-form {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+      #about-inp {
+        width: 70%;
+        height: 35px;
+      }
+
+      #about-btn {
+        width: 30%;
+        height: 35px;
+        border: none;
+        background-color: $second-color;
+        color: $main-color;
+        cursor: pointer;
+      }
+
+      #about-btn:hover {
+        background-color: $main-color;
+        color: $second-color;
+        border: 1px solid $second-color;
+      }
+
+      #about-tasks {
+        width: 100%;
+        background-color: $main-color;
+        color: $second-color;
+      }
+
+      #about-task {
+          display: flex;
+
+          p {
+            background-color: $main-color;
+            width: 70%;
+            border: 1px solid $second-color;
+            cursor: pointer;
+          }
+
+          button {
+            width: 30%;
+            background-color: $second-color;
+            border: 1px solid $main-color;
+            cursor: pointer;
+          }
+
+          button:hover {
+            background-color: $main-color;
+            color: $second-color;
+            border: 1px solid $second-color;
+          }
+      }
+}

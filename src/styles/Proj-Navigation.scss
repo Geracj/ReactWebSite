@@ -1,0 +1,22 @@
+$main-color: #434e74;
+$second-color: #889bd3;
+$third-color: #bedfff;
+
+
+#proj-links {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+
+  .proj-link {
+    width: 20%;
+    background-color: $main-color;
+    color: $second-color;
+    padding: 15px;
+  }
+
+  .proj-link:hover {
+    background-color: $second-color;
+    color: $main-color;
+  }
+}
